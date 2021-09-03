@@ -23,7 +23,6 @@
 		"format": "prettier --write \"./**/*.{js,json}\""
 	},
 	"dependencies": {
-		"add-gitignore": "^1.1.1",
 		"await-to-js": "^3.0.0",
 		"axios": "^0.21.1",
 		"chalk": "^4.1.2",

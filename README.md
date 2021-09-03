@@ -33,5 +33,3 @@ gitignore python
 # generate react gitignore & add webstorm related files to it
 gitignore react webstorm
 ```
-
-> Note: By default webstorm will be added to your gitignore
