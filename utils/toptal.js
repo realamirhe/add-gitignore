@@ -17,7 +17,12 @@ export default async ignoredItems => {
 	const [err, res] = await to(axios.get(gitignoreURL));
 	handleError(`API CALL FAILED`, err, true, true);
 
-	await write('.gitignore', res.data.trim(), { newline: true });
+	const content = [
+		'# Generated intelligently by https://github.com/amirHossein-Ebrahimi/add-gitignore',
+		res.data.trim()
+	].join('\n');
+
+	await write('.gitignore', content, { newline: true });
 
 	spinner.stop();
 };
