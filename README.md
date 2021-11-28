@@ -21,7 +21,7 @@ yarn install
 npm link
 ```
 
-> Note yarn link may also work but you may face some issues if you are using zsh.
+> Note yarn link may also work but you may face some issues if you are using nvm and zsh.
 
 4. run the command in any other project.
 
