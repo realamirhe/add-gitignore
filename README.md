@@ -5,7 +5,7 @@
 1. clone repo
 
 ```bash
-git clone https://github.com/amirHossein-Ebrahimi/add-gitignore.git
+git clone https://github.com/realamirhe/add-gitignore.git
 ```
 
 2. setup project
